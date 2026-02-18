@@ -4,7 +4,7 @@ on:
 
 jobs: 
  test-first-gha-job
-   runs-on: ubonto-latest
+   runs-on: ubunto-latest
   
    steps: 
      - name: message
