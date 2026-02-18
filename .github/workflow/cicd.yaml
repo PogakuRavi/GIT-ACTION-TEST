@@ -1,0 +1,11 @@
+name: first GH-Actions-test
+on:
+  push  
+
+jobs: 
+ test-first-gha-job
+   runs-on: ubonto-latest
+  
+   steps: 
+     - name: message
+       run: echo "welcome to Github-actions form rk"
